@@ -8,6 +8,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/")
 public class HelloController {
+
+
+    @GetMapping
+public String helltest() {
+    return "Hello from New Test :)";
+}
+
     @GetMapping
     public String hello(){
         return "Hello from spring boot application :)";
