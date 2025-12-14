@@ -11,11 +11,6 @@ public class HelloController {
 
 
 
-@GetMapping
-public String helltestagain() {
-    return "Hello from New Test again :)";
-}
-
 
     @GetMapping
     public String hello(){
