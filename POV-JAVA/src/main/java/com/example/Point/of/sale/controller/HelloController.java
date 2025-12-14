@@ -10,10 +10,12 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 
 
-    @GetMapping
-public String helltest() {
-    return "Hello from New Test :)";
+
+@GetMapping
+public String helltestagain() {
+    return "Hello from New Test again :)";
 }
+
 
     @GetMapping
     public String hello(){
